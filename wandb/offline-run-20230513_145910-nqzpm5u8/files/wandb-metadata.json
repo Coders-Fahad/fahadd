@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-05-13T10:59:11.860628",
+    "startedAt": "2023-05-13T10:59:10.782627",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "R8",
+        "BERT"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Asus\\Desktop\\short-text-classification\\short-text-classification\\main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/FKarl/short-text-classification.git",
+        "commit": "2a7caec275d6a0043247881406153b87d17f4d14"
+    },
+    "email": null,
+    "root": "C:/Users/Asus/Desktop/short-text-classification/short-text-classification",
+    "host": "Alanood",
+    "username": "Asus",
+    "executable": "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1803.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1803.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 952.2307777404785,
+        "used": 545.2656326293945
+    },
+    "gpu": "NVIDIA GeForce MX250",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX250",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.803466796875
+    }
+}

@@ -1,0 +1,26 @@
+2023-05-13 15:01:23,390 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-13 15:01:23,390 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Configure stats pid to 4392
+2023-05-13 15:01:23,391 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Asus\.config\wandb\settings
+2023-05-13 15:01:23,391 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Asus\Desktop\short-text-classification\short-text-classification\wandb\settings
+2023-05-13 15:01:23,391 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-13 15:01:23,391 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-13 15:01:23,394 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'C:\\Users\\Asus\\Desktop\\short-text-classification\\short-text-classification\\main.py'}
+2023-05-13 15:01:23,394 INFO    MainThread:4392 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2023-05-13 15:01:23,395 INFO    MainThread:4392 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\Asus\Desktop\short-text-classification\short-text-classification\wandb\offline-run-20230513_150123-0xcei1l6\logs\debug.log
+2023-05-13 15:01:23,395 INFO    MainThread:4392 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\Asus\Desktop\short-text-classification\short-text-classification\wandb\offline-run-20230513_150123-0xcei1l6\logs\debug-internal.log
+2023-05-13 15:01:23,397 INFO    MainThread:4392 [wandb_init.py:init():547] calling init triggers
+2023-05-13 15:01:23,397 INFO    MainThread:4392 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'dataset': 'R8', 'model': 'BERT', 'output_dir': 'output', 'log_level': 'info', 'log_to_file': False, 'log_file': 'log.txt', 'batch_size': 128, 'learning_rate': 5e-05, 'num_train_epochs': 10, 'weight_decay': 0.0, 'warmup_steps': 0, 'gradient_accumulation_steps': 1, 'dropout': 0.5, 'bidirectional': False, 'num_layers': 1, 'hidden_size': 1024, 'pretrained_embedding_path': None, 'unfreeze_embedding': False, 'm1': None, 'm2': None, 'mm': None, 'm1_learning_rate': 5e-05, 'm1_weight_decay': 0.0, 'm1_warmup_steps': 0, 'm1_dropout': 0.5, 'm1_num_layers': 1, 'm1_hidden_size': 1024, 'm2_learning_rate': 5e-05, 'm2_weight_decay': 0.0, 'm2_warmup_steps': 0, 'm2_dropout': 0.5, 'm2_num_layers': 1, 'm2_hidden_size': 1024, 'm2_num_train_epochs': 10, 'mm_learning_rate': 5e-05, 'mm_weight_decay': 0.0, 'mm_warmup_steps': 0, 'mm_dropout': 0.5, 'mm_num_layers': 1, 'mm_hidden_size': 1024, 'alpha': 0.5}
+2023-05-13 15:01:23,399 INFO    MainThread:4392 [wandb_init.py:init():596] starting backend
+2023-05-13 15:01:23,400 INFO    MainThread:4392 [wandb_init.py:init():600] setting up manager
+2023-05-13 15:01:23,414 INFO    MainThread:4392 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-13 15:01:23,431 INFO    MainThread:4392 [wandb_init.py:init():606] backend started and connected
+2023-05-13 15:01:23,493 INFO    MainThread:4392 [wandb_init.py:init():700] updated telemetry
+2023-05-13 15:01:23,605 INFO    MainThread:4392 [wandb_init.py:init():787] starting run threads in backend
+2023-05-13 15:01:24,551 INFO    MainThread:4392 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-13 15:01:24,553 INFO    MainThread:4392 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-05-13 15:01:24,557 INFO    MainThread:4392 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-13 15:01:24,558 INFO    MainThread:4392 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-13 15:01:24,559 INFO    MainThread:4392 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-13 15:01:29,313 INFO    MainThread:4392 [wandb_watch.py:watch():51] Watching
+2023-05-13 15:01:30,710 WARNING MsgRouterThr:4392 [router.py:message_loop():77] message_loop has been closed

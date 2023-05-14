@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.11.2",
+    "heartbeatAt": "2023-05-09T12:58:45.395363",
+    "startedAt": "2023-05-09T12:58:40.136528",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "MR",
+        "BERT",
+        "--learning_rate=1e-5",
+        "--batch_size=32",
+        "--num_train_epochs=10",
+        "--dropout=0"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\cyco\\Desktop\\New folder (4)\\short-text-classification\\main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/FKarl/short-text-classification.git",
+        "commit": "2a7caec275d6a0043247881406153b87d17f4d14"
+    },
+    "email": null,
+    "root": "C:/Users/cyco/Desktop/New folder (4)/short-text-classification",
+    "host": "CM",
+    "username": "cyco",
+    "executable": "C:\\Users\\cyco\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1800.0,
+        "min": 0.0,
+        "max": 2601.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1800.0,
+            "min": 0.0,
+            "max": 2601.0
+        }
+    ],
+    "disk": {
+        "total": 269.72645568847656,
+        "used": 158.91651916503906
+    },
+    "memory": {
+        "total": 7.805747985839844
+    }
+}
